@@ -41,12 +41,12 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
-          RaisedButton(
-            child: Text('Get Text'),
-            onPressed: () {
-              print(key.currentState!.controller!.markupText);
-            },
-          ),
+          // RaisedButton(
+          //   child: Text('Get Text'),
+          //   onPressed: () {
+          //     print(key.currentState!.controller!.markupText);
+          //   },
+          // ),
           Container(
             child: FlutterMentions(
               key: key,
